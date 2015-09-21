@@ -1,0 +1,19 @@
+.nav-tabs > li > a{background-color:#333; color:#fff; border-radius: 0; border:solid 1px #333;}
+.nav-tabs > li > a:hover{background-color:#fe4a65; color:#fff; border-radius: 0; border:solid 1px #fe4a65;}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover{background-color:#fe4a65; color:#fff; border:solid 1px #fe4a65;}
+.nav-tabs{border:solid 0px #fe4a65;}
+.nav-tabs > li > a.active{position:relative; background:#fe4a65;}
+.nav-tabs > li.active > a:after{top:100%; left:50%; border:solid transparent; content:" "; height:0; width:0; position:absolute; 	pointer-events:none; border-color:rgba(254, 74, 101, 0); border-top-color:#fe4a65; border-width:10px; margin-left:-10px;}
+
+.nav-tabs{width:auto; height:auto; margin:0; padding:0; float:left;}
+.tab-content{margin:40px 0 0 0;}
+
+/*Buttons*/
+.btn{border-radius:0;}
+
+/*Popup*/
+.modal-content{border-radius:0px;}
+.modal-header{background-color:#f1592a; color:#fff; border-bottom:1px solid #e5e5e5;}
+.modal-title{color:#fff;}
+.modal-header .close{background-color:#e13f0c; color:#fff; margin:-15px -15px 0 0; padding:17px; opacity:1;}
+

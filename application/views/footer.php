@@ -1,24 +1,20 @@
-    <!-- Modal -->
-    <div class="modal fade" id="confirmModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-            <h4 class="modal-title" id="myModalLabel">Are you sure you want to sign out?</h4>
-          </div>
-          <div class="modal-footer">
-            <a href="<?php echo $this->config->site_url()."login/logout";?>" class="btn btn-primary">Yes</a>
-            <button type="button" class="btn btn-default" data-dismiss="modal">No</button>
-          </div>
-        </div>
-      </div>
-    </div>	
-    <footer class="templatemo-footer">
-      <div class="templatemo-copyright">
-        <p>Copyright &copy; 2015 SymQuote.com</p>
-      </div>
-    </footer>
-  </div>
+<!--footer Start-->
+	<div class="footer">
+		<div class="social-icon">
+			<ul>
+				<li><a href="#"><img src="<?php echo site_url();?>assets/images/facebook.png" alt=""></a></li>
+				<li><a href="#"><img src="<?php echo site_url();?>assets/images/twitter.png" alt=""></a></li>
+				<li><a href="#"><img src="<?php echo site_url();?>assets/images/rss.png" alt=""></i></a></li>
+			</ul>
+		</div>
+		<div class="footer-links">
+			<ul>
+				<li><a href="#"><i class="about"></i></a></li>
+				<li><a href="#"><i class="contact"></i></a></li>
+			</ul>
+		</div>
+	</div>
+	<!--footer End-->
 </div>
 </body>
 </html>
